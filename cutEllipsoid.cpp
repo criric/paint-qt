@@ -1,12 +1,12 @@
 #include "cutEllipsoid.h"
 
-CutEllipsoid::CutEllipsoid(int x_center_, int y_center_, int z_center_, int x_radius_, int y_radius_, int z_radius_){
-  this -> x_center = x_center_;
-  this -> y_center = y_center_;
-  this -> z_center = z_center_;
-  this -> x_radius = x_radius_; 
-  this -> y_radius = y_radius_;
-  this -> z_radius = z_radius_;
+CutEllipsoid::CutEllipsoid(int xcenter_, int ycenter_, int zcenter_, int xradius_, int yradius_, int zradius_){
+  this -> x_center = xcenter_;
+  this -> y_center = ycenter_;
+  this -> z_center = zcenter_;
+  this -> x_radius = xradius_;
+  this -> y_radius = yradius_;
+  this -> z_radius = zradius_;
 }
 
 void CutEllipsoid::draw(Sculptor &sculptor){

@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_6">
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="60,30,10,10">
+     <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="60,30,10,0">
       <item>
        <widget class="QGroupBox" name="groupBox">
         <property name="title">
@@ -377,11 +377,17 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_10">
       <item>
-       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="90,10">
+       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0">
         <item>
          <widget class="Plotter" name="plotter" native="true">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
           <property name="cursor">
            <cursorShape>CrossCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
           </property>
           <property name="layoutDirection">
            <enum>Qt::LeftToRight</enum>

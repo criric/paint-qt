@@ -135,5 +135,5 @@ void MainWindow::meshlab(){
     process.waitForFinished();
 }
 
-void MainWindow::on_actionCriar_arquivo_OFF_triggered(){ ui->plotter->Off(ui->lineEditOFF->text()); }
-void MainWindow::on_actionQuit_triggered() { exit(0);}
+void MainWindow::criarOFF(){ ui->plotter->Off(ui->lineEditOFF->text()); }
+void MainWindow::quit() { exit(0);}
